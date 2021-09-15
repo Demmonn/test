@@ -117,7 +117,6 @@ button{
     grid-gap: 20px;
     grid-template-columns: repeat(3, 350px);
     grid-template-rows: repeat(3, 250px);
-    
 }
 .it{
     background-color: #f7f7f7;
@@ -131,4 +130,30 @@ button{
     max-width: 120px;
     margin: 0 auto;
     margin-top: 20px;
+}
+.block1{
+    display: grid;
+    grid-template-columns: repeat(4, 480px);
+    grid-template-rows: repeat(4, 407px);
+    margin-bottom: -600px;
+}
+.ng2{
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1100px;
+    margin-top: -700px;
+}
+.ng2-item{
+    font-size: 21px;
+    max-width: 350px;
+    max-height: 318px;
+}
+.text2{
+    font-size: 14px;
+    max-width: 350px;
+    max-height: 259px;
+    background-color: #f7f7f7;
+    padding: 20px;
 }
