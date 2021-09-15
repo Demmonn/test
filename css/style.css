@@ -101,6 +101,7 @@ button{
     height: 49px;
     width: 175px;
     font-size: 14px;
+    border: none;
 }
 .block{
     max-width: 1100px;
