@@ -132,35 +132,18 @@ button{
 }
 .block1{
     display: grid;
-    grid-template-columns: repeat(4, 475px);
+    grid-template-columns: repeat(4, 474px);
     grid-template-rows: repeat(4, 407px);
-    margin-bottom: -600px;
     max-width: 1920px;
     margin: 0 auto;
+    margin-bottom: -600px;
 }
-.ita{
-    background-image: url(../img/маска1.png);
+.it1 img{
+    filter: grayscale(1);
+    transition: 1s;
 }
-.itb{
-    background-image: url(../img/маска2.png);
-}
-.itc{
-    background-image: url(../img/маска3.png);
-}
-.itd{
-    background-image: url(../img/маска4.png);
-}
-.iti{
-    background-image: url(../img/велком.png);
-}
-.itf{
-    background-image: url(../img/тыквы.png);
-}
-.itg{
-    background-image: url(../img/бабушка\ и\ маска.png);
-}
-.ith{
-    background-image: url(../img/лицо\ на\ тыкве.png);
+.it1 img:hover{
+    filter: grayscale(0);
 }
 .ng2{
     font-size: 36px;
