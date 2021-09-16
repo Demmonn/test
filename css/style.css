@@ -95,7 +95,6 @@ hr {
 .text-item h3{
     color: white;
     font-size: 24px;
-    text-transform: capitalize;
 }
 button{
     height: 49px;
@@ -133,9 +132,35 @@ button{
 }
 .block1{
     display: grid;
-    grid-template-columns: repeat(4, 480px);
+    grid-template-columns: repeat(4, 475px);
     grid-template-rows: repeat(4, 407px);
     margin-bottom: -600px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.ita{
+    background-image: url(../img/маска1.png);
+}
+.itb{
+    background-image: url(../img/маска2.png);
+}
+.itc{
+    background-image: url(../img/маска3.png);
+}
+.itd{
+    background-image: url(../img/маска4.png);
+}
+.iti{
+    background-image: url(../img/велком.png);
+}
+.itf{
+    background-image: url(../img/тыквы.png);
+}
+.itg{
+    background-image: url(../img/бабушка\ и\ маска.png);
+}
+.ith{
+    background-image: url(../img/лицо\ на\ тыкве.png);
 }
 .ng2{
     font-size: 36px;
@@ -144,11 +169,17 @@ button{
     margin: 0 auto;
     max-width: 1100px;
     margin-top: -700px;
+    margin-bottom: 100px;
 }
 .ng2-item{
     font-size: 21px;
     max-width: 350px;
     max-height: 318px;
+}
+.ngp{
+    color: black;
+    font-weight: bolder;
+    text-transform: capitalize;
 }
 .text2{
     font-size: 14px;
@@ -156,4 +187,60 @@ button{
     max-height: 259px;
     background-color: #f7f7f7;
     padding: 20px;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1100px;
+    text-align: center;
+}
+.cont h3{
+    font-size: 24px;
+}
+.gray{
+    color: #999999;
+    margin-bottom: 20px;
+}
+.con{
+    margin-top: 10px;
+}
+.cont1{
+    margin-top: 50px;
+}
+.or{
+    color: #F7654A;
+}
+.or1{
+    margin-top: -20px;
+}
+.tx{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.footer{
+    background-color: #404149;
+    max-height: 250px;
+    padding: 10px;
+    margin-top: 60px;
+}
+.ft{
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+.foter p{
+    vertical-align: middle;
+    color: white;
+    font-size: 16px;
+}
+.foot{
+    display: flex;
+    color: white;
+    font-size: 16px;
+}
+.pr{
+    margin-right: 5px;
 }
